@@ -4,6 +4,4 @@ python:
 - 2.7
 - 3.4
 - 3.5
-script: 
-echo Tests Starting
-py.test -v
+script: py.test -v
