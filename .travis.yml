@@ -5,5 +5,5 @@ python:
 - 3.4
 - 3.5
 script: 
-print('Tests starting')
+echo Tests Starting
 py.test -v
