@@ -4,5 +4,6 @@ python:
 - 2.7
 - 3.4
 - 3.5
-before_script: print('tests starting')
+before_script: 
+echo "TESTS STARTING"
 script: py.test -v
