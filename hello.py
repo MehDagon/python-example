@@ -1,7 +1,7 @@
 from __future__ import print_function
 import sys
 
-print('tests starting')
+sys.stdout.write('tests starting')
 
 def hello(what):
     print('Hello, {}!'.format(what))
